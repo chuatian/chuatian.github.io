@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Signika+Negative:400,700);
 
+/**** tag Selectors ***/
+
 html, body {
   height:100%;
   font-family: 'Signika Negative', sans-serif;
@@ -36,6 +38,14 @@ td { font-size: 25px;
 
 }
 
+h1
+{font-size: 80px;
+color: white;
+
+}
+
+/**** ID Selectors (can only have 1 unique ID in your code.. use sparingly)***/
+
 #header {
   background: rgba(255, 255, 255, .5);
   padding: 1%;
@@ -63,11 +73,9 @@ td { font-size: 25px;
 width: 100px;
 }
 
-h1
-{font-size: 80px;
-color: white;
 
-}
+
+/**** Class Selectors ***/
 
 .AGV {
 height: 300px;
